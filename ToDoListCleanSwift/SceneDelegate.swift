@@ -17,7 +17,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 		options connectionOptions: UIScene.ConnectionOptions
 	) {
 		guard let windowScene = (scene as? UIWindowScene) else { return }
-
 		self.window = UIWindow(windowScene: windowScene)
 		self.window?.rootViewController = loginSceneAssembler()
 		self.window?.makeKeyAndVisible()
